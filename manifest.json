@@ -2,11 +2,10 @@
   "manifest_version": 3,
   "name": "Y-Realtime Link Copy Extension",
   "description": "Yahoo!リアルタイム検索上でタイムスタンプ隣にワンクリックコピーを追加",
-  "version": "0.1",
+  "version": "0.1.5",
   "permissions": [ "clipboardWrite" ],
   "content_scripts": [
     {
-      // Yahoo! リアルタイム検索上でのみ動作
       "matches": [ "https://search.yahoo.co.jp/realtime/*" ],
       "js": [ "content_script.js" ]
     }
